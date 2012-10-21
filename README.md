@@ -1,5 +1,5 @@
 
 sharecode
 =========
-share code !!
-EAEAeaea@
+
+SMILE
