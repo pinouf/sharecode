@@ -1,0 +1,18 @@
+git server sur syno 
+
+require: apache, git, git-http-backend ( no need davON) 
+
+1) 
+    Sur syno la config apache se cache dans /usr/syno/apache/conf
+    check httpd.conf-user
+
+    <VirtualHost *:80>
+    Include /usr/syno/etc/sites-enabled-user/*.conf
+    </VirtualHost>
+
+2) 
+    Il faut donc créer un fichier perso dans /usr/syno/etc/sites-enabled-user/
+    voir perso.conf
+
+3) 
+    /usr/syno/etc.defaults/rc.d/S97apache-user.sh restart 
