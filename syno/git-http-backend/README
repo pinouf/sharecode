@@ -16,3 +16,9 @@ require: apache, git, git-http-backend ( no need davON)
 
 3) 
     /usr/syno/etc.defaults/rc.d/S97apache-user.sh restart 
+
+
+4) créer son repo : mkdir test
+                    git init --bare
+                    chmod -R 777 test 
+
