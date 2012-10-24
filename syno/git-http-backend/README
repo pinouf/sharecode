@@ -20,5 +20,6 @@ require: apache, git, git-http-backend ( no need davON)
 
 4) créer son repo : mkdir test
                     git init --bare
+                    git update-server-info
                     chmod -R 777 test 
 
